@@ -1,11 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/styleregistro.css">
+    <title>Registro - Show</title>
 </head>
+
 <body>
+    <div class="content">
+        <div class="logo">
+            <img src="images/logo.png" width="500px" height="328px">
+        </div>
+        <div class="registro">
+            <form>
+                <div class="mb-3">
+                    <label for="correo" class="form-label">Correo Electr&oacute;nico</label>
+                    <input type="email" class="form-control" id="correo">
+
+                </div>
+                <div class="mb-3">
+                    <label for="usuario" class="form-label">Usuario</label>
+                    <input type="text" class="form-control" id="usuario">
+                </div>
+                <div class="mb-3">
+                    <label for="pass" class="form-label">Contrase&ntilde;a</label>
+                    <input type="password" class="form-control" id="pass">
+                </div>
+                <div class="mb-3">
+                    <label for="pass2" class="form-label">Confirmar Contrase&ntilde;a</label>
+                    <input type="password" class="form-control" id="pass2">
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="accept">
+                    <label class="form-check-label" for="accept">Acepto los t&eacute;rminos y condiciones</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Iniciar Sesi&oacute;n</button>
+            </form>
+        </div>
 </body>
+
 </html>
