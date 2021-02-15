@@ -24,43 +24,46 @@ body {
     color: black;
 }
 
-#main-container {
+.galeria {
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    list-style: none;
+    padding: 5px;
+    box-sizing: border-box;
     display: flex;
-    width: 100%;
-    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 10px 10px 10px 10px;
+    overflow-y: scroll;
 }
 
-.material-icons {
-    font-size: 24px;
-    color: #616060fa;
-    padding-right: 15px;
-    padding-top: 15px;
-    position: relative;
-    margin-left: 30px;
-    top: 5px;
+.galeria h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
 }
 
-#option-menu a {
-    color: #d6d6d6;
+.galeria h3 {
     font-size: 18px;
-    width: 100%;
+    color: rgb(0, 132, 255);
 }
 
-#profile-img {
-    width: 150px;
-    height: 150px;
-    border-radius: 150px;
-    border: 5px solid #666;
+.galeria li {
+    margin: 5px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgb(112, 112, 112);
+    border-radius: 10px 10px 10px 10px;
+    height: 600px;
+    width: 300px
 }
 
-#user-container {
-    left: 0;
-    top: 0;
-    box-shadow: 2px 2px 4px rgb(139, 139, 139);
-    width: 20%;
-    height: 100%;
-    border-radius: 0px 20px 20px 0px;
-    background-color: #2b2b2b;
+.galeria img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px 10px 10px 10px;
 }
 
 
@@ -113,4 +116,52 @@ body {
     transform: scaleX(1);
     -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
     transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+
+#main-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.main-feed {
+    width: 80%;
+    height: 100%;
+    margin: 5px;
+    border-width: 2px;
+    border-color: rgb(226, 226, 226);
+    border-style: solid;
+}
+
+.material-icons {
+    font-size: 24px;
+    color: #616060fa;
+    padding-right: 15px;
+    padding-top: 15px;
+    position: relative;
+    margin-left: 30px;
+    top: 5px;
+}
+
+#option-menu a {
+    color: #d6d6d6;
+    font-size: 18px;
+    width: 100%;
+}
+
+#profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    border: 5px solid #666;
+}
+
+#user-container {
+    left: 0;
+    top: 0;
+    box-shadow: 2px 2px 4px rgb(139, 139, 139);
+    width: 20%;
+    height: 100%;
+    border-radius: 0px 20px 20px 0px;
+    background-color: #2b2b2b;
 }
