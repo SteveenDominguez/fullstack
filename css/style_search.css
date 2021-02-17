@@ -1,0 +1,13 @@
+/* Barra de busqueda */
+#ctn-bars-search{
+    width: 100%;
+    padding: 10px;
+}
+
+#ctn-bars-search input{
+    display: block;
+    width: 300px;
+    padding: 5px;
+    font-size: 15px;
+}
+
