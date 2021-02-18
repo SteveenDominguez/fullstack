@@ -1,18 +1,25 @@
-#edit-contents{
-    width: 80%;
-    height: 100%;
-    background-color: black;
-}
-
-.photo-description{
+.text-area{
     border: none;
-    height: 100px;
     width: 300px;
-    display: list-item;
-    background-color: white;
+    height: 100px;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    text-align: justify;
 }
 
-.photo-description input{
-    margin: 20px 20px;
-    
+#button-delete{
+    background-color:white;
+    border: none;
+    width: 50px;
+    margin: 0px 10px;
+}
+
+
+#input-cat{
+    border: none;
+    margin: 0px 5px;
+    font-size: 18px;
+    color: rgb(0, 132, 255);
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,14 +8,19 @@
     <title>Showpic</title>
     <link href="css/stylesmain.css" rel="stylesheet" type="text/css">
     <link href="css/styles_edit.css" rel="stylesheet" type="text/css">
-     <!-- Latest compiled and minified CSS -->
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-     <!-- Optional theme -->
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-     <!-- Latest compiled and minified JavaScript -->
-     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
+
 <body>
     <div id="main-container">
         <!--Etiquetas del SideBar-->
@@ -29,11 +35,14 @@
                 <a href="main.html" class="hvr-bounce-to-right"><i class="material-icons">home</i>Inicio</a>
                 <br>
                 <br>
-                <a href="buscar_foto.html" class="hvr-bounce-to-right"><i class="material-icons">image_search</i> Buscar Foto</a><br>
+                <a href="buscar_foto.html" class="hvr-bounce-to-right"><i class="material-icons">image_search</i> Buscar
+                    Foto</a><br>
                 <br>
-                <a href="agregar.html" class="hvr-bounce-to-right"><i class="material-icons">add_circle</i> Agregar Foto</a><br><br>
+                <a href="agregar.html" class="hvr-bounce-to-right"><i class="material-icons">add_circle</i> Agregar
+                    Foto</a><br><br>
 
-                <a href="editar_foto.html" class="hvr-bounce-to-right"><i class="material-icons">brush</i> Editar Foto</a><br><br>
+                <a href="editar_foto.html" class="hvr-bounce-to-right"><i class="material-icons">brush</i> Editar
+                    Foto</a><br><br>
                 <br>
                 <a href="#" class="hvr-bounce-to-right"><i class="material-icons">settings</i> Configuración</a><br><br>
                 <a href="#" class="hvr-bounce-to-right"><i class="material-icons">exit_to_app</i> Cerrar Sesión</a><br>
@@ -42,41 +51,66 @@
         <!--Fin Etiquetas del SideBar-->
         <div id="main-feed">
             <h1 style="font-size: 30px; text-align: left; color: #616060fa; margin: 10px;"> Tus Fotos</h1>
-            
+
             <ul class="galeria">
                 <li>
-                    <a href=""><img src="https://gestion.pe/resizer/DORRchmtl6n4qhG27MGVzx04LQ0=/1200x900/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/UJRR4HO2D5AE5H2PQO7BWUVIKM.jpg"></a>
-                    <!--<input class = "photo-description" type="text"  value="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam voluptates accusamus iure deleniti beatae, fuga cum ex nesciunt tempore voluptas nemo, cumque veniam saepe provident!;"/>-->
-                    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam voluptates accusamus iure deleniti beatae, fuga cum ex nesciunt tempore voluptas nemo, cumque veniam saepe provident!</h2>
-                    <h3>Categoría: Lorem ipsum.</h3>
-                    <button type="submit">Aceptar</button>
+                    <a href=""><img
+                            src="https://gestion.pe/resizer/DORRchmtl6n4qhG27MGVzx04LQ0=/1200x900/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/UJRR4HO2D5AE5H2PQO7BWUVIKM.jpg"></a>
+                    <textarea name="textoarea" class="text-area" cols="30"
+                        rows="10">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis commodi iure sed sint. Illum ipsa architecto animi corrupti molestiae molestias maiores doloremque neque repudiandae cum!</textarea>
+                    <h3 style="display: inline-block;">Categoría: </h3> <input type="text" id="input-cat" value="lorem">
+                    <div style="display: block;">
+                        <button type="submit">Aceptar</button>
+                        <button id="button-delete" s><i class="material-icons" id="i-delete">delete</i></button>
+                    </div>
+
                 </li>
                 <li>
                     <a href=""><img src="https://aws.traveler.es/prod/designs/v1/assets/1000x667/21250.jpg"></a>
-                    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam voluptates accusamus iure deleniti beatae, fuga cum ex nesciunt tempore voluptas nemo, cumque veniam saepe provident!</h2>
-                    <h3>Categoría: Lorem ipsum.</h3>
-                    <button type="submit">Aceptar</button>
+                    <textarea name="textoarea" class="text-area" cols="30"
+                        rows="10">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis commodi iure sed sint. Illum ipsa architecto animi corrupti molestiae molestias maiores doloremque neque repudiandae cum!</textarea>
+                    <h3 style="display: inline-block;">Categoría: </h3> <input type="text" id="input-cat" value="lorem">
+                    <div style="display: block;">
+                        <button type="submit">Aceptar</button>
+                        <button id="button-delete" s><i class="material-icons" id="i-delete">delete</i></button>
+                    </div>
                 </li>
                 <li>
-                    <a href=""><img src="https://mott.pe/noticias/wp-content/uploads/2019/03/los-50-paisajes-maravillosos-del-mundo-para-tomar-fotos-1280x720.jpg"></a>
-                    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam voluptates accusamus iure deleniti beatae, fuga cum ex nesciunt tempore voluptas nemo, cumque veniam saepe provident!</h2>
-                    <h3>Categoría: Lorem ipsum.</h3>
-                    <button type="submit">Aceptar</button>
+                    <a href=""><img
+                            src="https://mott.pe/noticias/wp-content/uploads/2019/03/los-50-paisajes-maravillosos-del-mundo-para-tomar-fotos-1280x720.jpg"></a>
+                    <textarea name="textoarea" class="text-area" cols="30"
+                        rows="10">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis commodi iure sed sint. Illum ipsa architecto animi corrupti molestiae molestias maiores doloremque neque repudiandae cum!</textarea>
+                    <h3 style="display: inline-block;">Categoría: </h3> <input type="text" id="input-cat" value="lorem">
+                    <div style="display: block;">
+                        <button type="submit">Aceptar</button>
+                        <button id="button-delete" s><i class="material-icons" id="i-delete">delete</i></button>
+                    </div>
                 </li>
                 <li>
-                    <a href=""><img src="https://tecnohotelnews.com/wp-content/uploads/2020/06/jeshoots-com-mSESwdMZr-A-unsplash-1.jpg.webp"></a>
-                    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam voluptates accusamus iure deleniti beatae, fuga cum ex nesciunt tempore voluptas nemo, cumque veniam saepe provident!</h2>
-                    <h3>Categoría: Lorem ipsum.</h3>
-                    <button type="submit">Aceptar</button>
+                    <a href=""><img
+                            src="https://tecnohotelnews.com/wp-content/uploads/2020/06/jeshoots-com-mSESwdMZr-A-unsplash-1.jpg.webp"></a>
+                    <textarea name="textoarea" class="text-area" cols="30"
+                        rows="10">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis commodi iure sed sint. Illum ipsa architecto animi corrupti molestiae molestias maiores doloremque neque repudiandae cum!</textarea>
+                    <h3 style="display: inline-block;">Categoría: </h3> <input type="text" id="input-cat" value="lorem">
+                    <div style="display: block;">
+                        <button type="submit">Aceptar</button>
+                        <button id="button-delete" s><i class="material-icons" id="i-delete">delete</i></button>
+                    </div>
                 </li>
                 <li>
-                    <a href=""><img src="https://previews.123rf.com/images/grivina/grivina1609/grivina160900046/62749260-paisaje-capas-illustarted-cartel-vector-ilustraci%C3%B3n-de-dibujos-animados-de-un-paisaje-de-bosques-vuelan.jpg"></a>
-                    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam voluptates accusamus iure deleniti beatae, fuga cum ex nesciunt tempore voluptas nemo, cumque veniam saepe provident!</h2>
-                    <h3>Categoría: Lorem ipsum.</h3>
-                    <button type="submit">Aceptar</button>
+                    <a href=""><img
+                            src="https://previews.123rf.com/images/grivina/grivina1609/grivina160900046/62749260-paisaje-capas-illustarted-cartel-vector-ilustraci%C3%B3n-de-dibujos-animados-de-un-paisaje-de-bosques-vuelan.jpg"></a>
+                    <textarea name="textoarea" class="text-area" cols="30"
+                        rows="10">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis commodi iure sed sint. Illum ipsa architecto animi corrupti molestiae molestias maiores doloremque neque repudiandae cum!</textarea>
+                    <h3 style="display: inline-block;">Categoría: </h3> <input type="text" id="input-cat" value="lorem">
+                    <div style="display: block;">
+                        <button type="submit">Aceptar</button>
+                        <button id="button-delete" s><i class="material-icons" id="i-delete">delete</i></button>
+                    </div>
                 </li>
             </ul>
         </div>
     </div>
 </body>
+
 </html>
