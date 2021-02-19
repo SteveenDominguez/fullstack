@@ -1,0 +1,64 @@
+#main-feed{
+    width: 100%;
+}
+#panel-config{
+    
+    margin: auto;
+    padding: 30px;
+    width: 50%;
+    height: 90%;
+    margin-top: 30px;
+    overflow: scroll;
+}
+
+#img-user{
+    width: 100px;
+    height: 100px;
+}
+
+.cont{
+    padding: 10px;
+}
+
+.input-config{
+    background: 0 0;
+    border: 1px solid #dbdbdb;
+    border: 1px solid rgba(var(--ca6,219,219,219),1);
+    border-radius: 3px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #262626;
+    color: rgba(var(--i1d,38,38,38),1);
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 355px;
+    -ms-flex: 0 1 355px;
+    flex: 0 1 355px;
+    font-size: 16px;
+    height: 32px;
+    padding: 0 10px;
+    width: 100%;
+}
+
+.label-config{
+   
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 194px;
+    -ms-flex: 0 0 194px;
+    flex: 0 0 194px;
+    font-size: 20px;
+    font-weight: 600000;
+    line-height: 18px;
+    margin-top: 6px;
+    word-wrap: break-word;
+}
+
+.cont-button{
+    margin: 30px 10px;
+    
+}
+
+#label-passw{
+    font-size: 25px;
+}

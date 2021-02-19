@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Showpic</title>
+    <link href="css/stylesmain.css" rel="stylesheet" type="text/css">
+    <link href="css/style_config.css" rel="stylesheet" type="text/css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <div id="main-container">
+        <!--Etiquetas del SideBar-->
+        <div id="user-container">
+            <div>
+                <div id="container">
+                    <img id="profile-img" src="images/logo.png" width="200" height="200" alt="" />
+                    <h3 style="color:#d6d6d6">Nombre Usuario</h3>
+                </div>
+            </div>
+            <div id="option-menu">
+                <a href="main.html" class="hvr-bounce-to-right"><i class="material-icons">home</i>Inicio</a>
+                <br>
+                <br>
+                <a href="buscar_foto.html" class="hvr-bounce-to-right"><i class="material-icons">image_search</i> Buscar Foto</a><br>
+                <br>
+                <a href="agregar.html" class="hvr-bounce-to-right"><i class="material-icons">add_circle</i> Agregar Foto</a><br><br>
+
+                <a href="editar_foto.html" class="hvr-bounce-to-right"><i class="material-icons">brush</i> Editar Foto</a><br><br>
+                <br>
+                <a href="configuracion.html" class="hvr-bounce-to-right"><i class="material-icons">settings</i> Configuración</a><br><br>
+                <a href="inicio.html" class="hvr-bounce-to-right"><i class="material-icons">exit_to_app</i> Cerrar Sesión</a><br>
+            </div>
+        </div>
+        <!--Fin Etiquetas del SideBar-->
+        <div id="main-feed">
+            <div id="panel-config">
+                <div class="cont" id="cont-user">
+                    <div id="cont-img" style="display: inline-block;">
+                        <button style="border: none; background: none;"><img id="img-user" src="images/logo.png" width="100px" height="100px" alt="" /></button>
+                    </div>
+                    <div  id="cont-nomUser" style="display: inline-block;">
+                        <h1>Nombre Usuario</h1>
+                    </div>
+                    
+                </div><br>
+                <div id="label-passw">
+                    <label for="title">Información Personal</label>
+                </div>
+                <div id="cont-info">
+                    <div class="cont" id="cont-nom">
+                        <div  id="label-nom" style="display: inline-block;">
+                            <h2 class="label-config">Nombre: </h2>
+                        </div>
+                        <div id="input-nom" style="display: inline-block; margin: 0px 80px;">
+                            <input class="input-config" type="text" value="Nombre">
+                        </div>
+                    </div><br>
+                    <div class="cont" id="cont-nom_User">
+                        <div id="label-nom_User" style="display: inline-block;">
+                            <h2 class="label-config">Nombre usuario: </h2>
+                        </div>
+                        <div id="input-nom_User" style="display: inline-block; margin: 0px 25px;">
+                            <input class="input-config" type="text" value="Nombre usuario">
+                        </div>
+                    </div><br>
+                    <div class="cont" id="cont-config-correo">
+                        <div id="label-correo" style="display: inline-block;">
+                            <h2 class="label-config">Correo: </h2>
+                        </div>
+                        <div id="input-correo" style="display: inline-block; margin: 0px 80px;">
+                            <input class="input-config" type="text" placeholder="Correo">
+                        </div>
+                    </div>
+                    <div class="cont-button">
+                        <button >Enviar</button>
+                    </div>
+                </div> <br>
+                <div id="cont-passw">
+                    <div id="label-passw">
+                        <label for="title">Cambiar Contraseña</label>
+                    </div>
+                    <div class="cont" id="cont-old_passw">
+                        <div  id="label-old_pass" style="display: inline-block;">
+                            <h2 class="label-config">Contraseña Vieja: </h2>
+                        </div>
+                        <div id="input-old_pass" style="display: inline-block; margin: 0px 68px;">
+                            <input class="input-config" type="password" >
+                        </div>
+                    </div><br>
+                    <div class="cont" id="cont-new_passw">
+                        <div id="label-new_passw" style="display: inline-block;">
+                            <h2 class="label-config">Contraseña Nueva: </h2>
+                        </div>
+                        <div id="input-new_passw" style="display: inline-block; margin: 0px 65px;">
+                            <input class="input-config" type="password" >
+                        </div>
+                    </div><br>
+                    <div class="cont" id="cont-confir_passw">
+                        <div id="label-confri_passw" style="display: inline-block;">
+                            <h2 class="label-config">Confirmar Contraseña: </h2>
+                        </div>
+                        <div id="input-confir_passw" style="display: inline-block; margin: 0px 35px;">
+                            <input class="input-config" type="password" >
+                        </div>
+                    </div>
+                    <div class="cont-button">
+                        <button >Cambiar</button>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
